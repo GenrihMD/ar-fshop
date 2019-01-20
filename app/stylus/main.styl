@@ -1,0 +1,38 @@
+$primary = #40b550;
+$secondary = #e6a302;
+
+a
+  transition all 0.1s ease-in
+  text-decoration none
+
+.button
+  padding 12px 24px
+  line-height 18px
+  border-radius 30px
+  font-size 14px
+  font-weight 600
+  transition all 0.1s ease-in
+
+  &--large
+    padding 16px 36px
+    border-radius 50px
+
+  &--primary
+    color #fff
+    background-color $primary
+
+    &:hover
+      background darken($primary,25%)
+
+  &--secondary
+    background-color $secondary
+    color #fff
+
+    &:hover
+      background darken($secondary,10%)
+
+  &--light
+    background-color #fff
+    color #3a3a3a
+
+@import 'sections/*'

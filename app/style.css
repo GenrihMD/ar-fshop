@@ -141,12 +141,8 @@ a {
 
 button,
 .button {
-    display: block;
+    display: inline-block;
     cursor: pointer
-}
-
-a {
-    text-decoration: none
 }
 
 input {
@@ -981,33 +977,18 @@ section.section01 > div.cnt.row > div.features > div.itemOfFeatures > div.descri
 section.section01 > div.cnt.row > div.features > div.itemOfFeatures > div.description > p > span {
     color: #40b550;
     font-size: 30px;
-    font-weight: 500;
-    line-height: 18px
+    font-weight: 700;
+    line-height: 30px;
 }
 
 section.section01 > div.cnt.row > a.button {
     margin-top: 27px;
     position: relative;
-    width: 240px;
-    height: 50px;
     border-radius: 30px;
-    padding: 16px 36px 16px 21px;
-    background-color: #40b550;
-    color: #2f2e2e;
+    padding: 16px 36px;
     font-size: 15px;
     font-weight: 600;
     line-height: 18px;
-}
-
-section.section01 > div.cnt.row > a.button:after {
-    position: absolute;
-    top: 22px;
-    right: 19px;
-    content: ' ';
-    width: 5px;
-    height: 8px;
-    background: url("img/s1_button-arrow.png") center/contain;
-    background-repeat: no-repeat
 }
 
 @media (min-width:768px) {
@@ -1097,7 +1078,6 @@ section.section02 div.items div.item div.icon {
 section.section02 div.items div.item h2 {
     color: #1a1a1a;
     font-size: 20px;
-    font-weight: 400;
     line-height: 18px;
     padding: 29px 0 15px
 }
@@ -1106,7 +1086,7 @@ section.section02 div.items div.item p {
     color: #626262;
     font-size: 15px;
     font-weight: 300;
-    line-height: 18px
+    line-height: 24px
 }
 
 @media (min-width:768px) {
@@ -1118,9 +1098,6 @@ section.section02 div.items div.item p {
 }
 
 @media (min-width:1180px) {
-    section.section02 {
-        padding-bottom: 76px;
-    }
     section.section02 div.items div.item {
         width: 25%;
         margin-top: 62px;
@@ -1193,29 +1170,6 @@ section.section03 > form > input[name="phone"] {
     margin: 12px 0 20px
 }
 
-section.section03 > form > button {
-    position: relative;
-    width: 188px;
-    height: 46px;
-    background-color: #e3d820;
-    color: #2f2e2e;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18px;
-    border-radius: 30px;
-    padding-right: 33px;
-}
-
-section.section03 > form > button:after {
-    position: absolute;
-    content: ' ';
-    top: 12px;
-    right: 15px;
-    width: 21px;
-    height: 21px;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAACXklEQVRIS52VP2gUQRTGv0fgDjFkdcEFNeY8YQvJqaek8E9hUiaNplK7SyFWoo2ViDY2VomWKZJUapVUtmJxsUlIQiIWJ/nnoXDC4YULMdeMvMnO+nZvdo84cNzdvnm/+eabN28JHYZSahDATTHtN4BPRLSclkq2oFLqGIBHAB4D4N+2sQlgGsAEEfFikdEGVkrdBjCVAowzeIHR+A4iYKVUKYB2csgWHyMi3oEeIThQOvs/xCCH7RgyyjU48HTjENtHvfYW1fVn8C/M4cjRgtGzSUT5ULFS6gWA51Jts1FGc2cejjscJjbqH+C4Ixq6VeGzBbq6enDx6jeZqi0xinkbjonKxEz2DPoHFnVoqezB9e6iXnsXgnL+BFzvngQvE9FlCur0o4x8WbiC1n41fNQ/sIDWn++orI1GjsACNfE8g9tsYGU8unuuwTv9QG+frZFg17uDnP8m6ayHrODK6i00dz6j27kOvzCnk6U9hpaieMwKlurY05z/Gnu7a9jbXUUm23ewG+dGWmXawZxR3XiKXz8mdTJXxrnzMyGotb8dLpBA11YU+cBtE7YqD1Gvvdcho5xLbv1rCVwtvJioYYk4bsqN73uuE5w959FszOvvE6fuozf/Mp62QkRFA26rDDlb2iKf+4VZm9eRC8KtkfurVfWByjJ+br/S1ZLJ9uJk35P4xeBp3Ke5f0eaUKLXaccvYg0ARSJiW/+B+U/QNsfl9T4EdFD2ZFujZ+V8KxJtiS22AqCU2uhlQqCeX02XElQzcFw2dznP+s6LLXAWAH94J9wF2UPuYG3vOZn3F8+n73Ubfc5DAAAAAElFTkSuQmCC");
-    background-repeat: no-repeat
-}
 
 section.section03 > h2 {
     color: #fff;
@@ -1406,26 +1360,9 @@ section.section04 > div.cnt.row > a.button {
     margin: 0 auto;
     margin-top: 27px;
     position: relative;
-    width: 240px;
-    height: 50px;
-    border-radius: 30px;
-    padding: 16px 36px 16px 21px;
-    background-color: #40b550;
-    color: #fff;
     font-size: 15px;
     font-weight: 600;
     line-height: 18px;
-}
-
-section.section04 > div.cnt.row > a.button:after {
-    position: absolute;
-    top: 22px;
-    right: 19px;
-    content: ' ';
-    width: 5px;
-    height: 8px;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAYAAADaxo44AAAAVklEQVQYV3WO0RFAUAwEdytDBXSADuiECjydKEFHMUw+fJCPm7nZXC5GRAFaoFFPcoyIA6jSj+q9iLdkqk+4qPMDEg7Alrb8gf3r1KpO/+VZ3AH1+90L9kEnQgZAuEgAAAAASUVORK5CYII=") center/contain;
-    background-repeat: no-repeat
 }
 
 @media (min-width:768px) {
@@ -1545,7 +1482,7 @@ section.section05 div.cnt.row div.left h1 {
     color: #fffefe;
     font-size: 28px;
     font-weight: 400;
-    line-height: 28px
+    line-height: 48px
 }
 
 section.section05 div.cnt.row div.left p {
@@ -2497,20 +2434,8 @@ section.section14 div.cnt.row div.two div.mail > p > a {
 
 section.section14 div.cnt.row div.two > a.button {
     margin: 29px 0 35px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
     border-radius: 30px;
-    width: 150px;
-    height: 34px;
     background-color: #fff;
-    color: #3a3a3a;
     font-size: 13px;
     font-weight: 600;
     line-height: 18px
@@ -2538,25 +2463,11 @@ section.section14 div.cnt.row div.three div.desc > p {
 }
 
 section.section14 div.cnt.row div.three div.desc > a.button {
-    margin-top: 3px;
     margin-bottom: 39px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    padding: 12px 25px;
     border-radius: 30px;
-    width: 190px;
-    height: 34px;
-    background-color: #00993d;
-    color: #2f2e2e;
     font-size: 13px;
     font-weight: 600;
-    line-height: 16px
 }
 
 section.section14 div.cnt.row div.three div.img {
@@ -2686,37 +2597,7 @@ section.section15 div.cnt div.section p.small {
 
 section.section15 div.cnt div.section a.button {
     margin-top: 27px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 190px;
-    height: 40px;
-    background-color: #00993d;
-    color: #2f2e2e;
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 16px;
     position: relative;
-    padding-right: 17px;
-    border-radius: 50px;
-}
-
-section.section15 div.cnt div.section a.button:after {
-    content: ' ';
-    position: absolute;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAYAAADaxo44AAAAY0lEQVQYV3WOwQ2AMAwD48kgXQA2ADaATWACyiJWR2CiBgXlwaP4Ecm6JDZUNYvIYGZaSrklBFUtALrwC0lfFPjwKwBTwJ3k9gJXSmkWkTNsbgIzu1qvDpLrf3gEj7XW/lv3AbzvK9EnER4yAAAAAElFTkSuQmCC");
-    width: 6px;
-    height: 8px;
-    background-repeat: no-repeat;
-    background-position: center;
-    top: 17.3px;
-    right: 13px
 }
 
 @media (min-width:768px) {
@@ -2804,29 +2685,4 @@ footer div.cnt.row a.button:after {
     right: 8px;
     width: 8px;
     height: 5px
-}
-
-body:before {
-    z-index: 5;
-    position: fixed;
-    width: 100vw;
-    text-align: center;
-    content: 'vk.com/th_gmd';
-    color: rgba(255, 254, 254, 0.03);
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 16px;
-    top: 5px
-}
-
-body:after {
-    position: fixed;
-    width: 100vw;
-    text-align: center;
-    content: 'vk.com/th_gmd';
-    color: rgba(255, 254, 254, 0.1);
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 16px;
-    bottom: 10px
 }
