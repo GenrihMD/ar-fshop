@@ -11,7 +11,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 blockquote,
 pre,
 a,
@@ -1108,7 +1107,6 @@ section.section03 {
 }
 
 section.section03 > h1 {
-    padding: 35px 45px 0;
     text-align: center;
     color: #fff;
     font-size: 22px;
@@ -1167,7 +1165,6 @@ section.section03 > p {
     font-weight: 600;
     line-height: 24px;
     text-align: center;
-    padding: 36px 0 55px;
 }
 
 section.section03 > p span {
@@ -1180,7 +1177,6 @@ section.section03 > p img {
 
 @media (min-width:768px) {
     section.section03 > h1 {
-        padding-top: 90px;
         font-size: 30px;
         line-height: 18px
     }
@@ -1199,22 +1195,18 @@ section.section03 > p img {
     }
     section.section03 > p {
         font-size: 14px;
-        padding-bottom: 58px;
     }
     section.section03 > p img {
         display: inline-block;
-        padding-right: 11px;
+        margin-right: 5px;
         position: relative;
-        top: 5px
+        top: 3px
     }
 }
 
 @media (min-width:1180px) {
     section.section03 {
         background-size: cover;
-    }
-    section.section03 > p {
-        padding-bottom: 129px
     }
 }
 
