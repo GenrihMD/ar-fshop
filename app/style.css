@@ -862,7 +862,7 @@ header.header > div.cnt.row > a.callme {
 
 @media (min-width:1180px) {
     header.header > div.cnt.row > div.menu > nav {
-        width: 712px;
+        width: 600px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1039,7 +1039,7 @@ section.section01 > div.cnt.row > a.button {
 
 section.section02 {
     background-color: #f5f5f5;
-    padding-bottom: 68px;
+    padding: 80px 0 50px;
 }
 
 section.section02 div.items div.item {
@@ -1054,9 +1054,9 @@ section.section02 div.items div.item {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 25px;
     margin-bottom: 4px;
     text-align: center;
+    padding: 0 10px;
 }
 
 section.section02 div.items div.item div.icon {
@@ -1092,7 +1092,6 @@ section.section02 div.items div.item p {
 @media (min-width:768px) {
     section.section02 div.items div.item {
         width: 50%;
-        margin-top: 62px;
         margin-bottom: 7px
     }
 }
@@ -1100,8 +1099,7 @@ section.section02 div.items div.item p {
 @media (min-width:1180px) {
     section.section02 div.items div.item {
         width: 25%;
-        margin-top: 62px;
-        margin-bottom: 19px
+        margin-bottom: 30px
     }
 }
 
@@ -1123,19 +1121,9 @@ section.section03 > form {
     width: calc(100% - 20px);
     max-width: 500px;
     margin: 29px auto 35px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 258px;
     border-radius: 2px;
     background-color: #fff;
+    text-align: center;
 }
 
 section.section03 > form > h2 {
@@ -1149,11 +1137,6 @@ section.section03 > form > h2 {
 
 section.section03 > form > input[name="name"],
 section.section03 > form > input[name="phone"] {
-    width: 100%;
-    height: 42px;
-    border-radius: 3px;
-    border: 1px solid #ebebeb;
-    background-color: #fff;
     padding-left: 48px
 }
 
@@ -1197,14 +1180,13 @@ section.section03 > p img {
 
 @media (min-width:768px) {
     section.section03 > h1 {
-        padding-top: 61px;
+        padding-top: 90px;
         font-size: 30px;
         line-height: 18px
     }
     section.section03 > form {
         margin: 46px auto 65px;
         padding: 44px 36px 39px 34px;
-        height: 310px;
     }
     section.section03 > form > h2 {
         font-size: 20px

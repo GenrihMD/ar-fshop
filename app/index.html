@@ -2,12 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>Fastshop</title>
+    <title>Fastshop index</title>
     <meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700&amp;subset=cyrillic,cyrillic-ext">
-    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/common.min.css">
 </head>
@@ -17,25 +17,26 @@
         <div class="logo"><img src="img/logo.png" alt="logo"></div>
         <div class="menu">
             <nav><a class="scrollTo" href="#section04">Прайс</a><a class="scrollTo" href="#section15">Примеры</a><a class="scrollTo" href="#section07">Дополнительные услуги</a><a class="scrollTo" href="#section08">Функционал</a><a class="scrollTo" href="#section11">Этапы работы</a></nav>
-        </div><a class="button button--secondary" href="#callBackPopup">Обратный звонок</a>
-        +7 821 628-12-18
+        </div>
+        <div class="phone"><a href="#">+7 821 628-12-18</a></div>
+        <a class="button button--secondary" href="#callBackPopup">Обратный звонок</a>
     </div>
 </header>
 <section class="section01">
     <div class="cnt row">
-        <h1>Интернет-магазин за 1 день и 32&nbsp;000 руб.</h1>
+        <h1>Интернет-магазин за 1 день и 44&nbsp;000 руб.</h1>
         <h2>качество за минимальный бюджет и сжатые сроки</h2>
         <div class="features">
             <div class="itemOfFeatures">
                 <div class="icon"><img src="img/s1_features_img01.png" alt="s1_features_img01"></div>
                 <div class="description">
-                    <p>на <br><span>70&nbsp;000 р.</span><br> дешевле</p>
+                    <p>на <br><span>70&nbsp;000 р.</span><br> дешевле рынка</p>
                 </div>
             </div>
             <div class="itemOfFeatures">
                 <div class="icon"><img src="img/s1_features_img02.png" alt="s1_features_img02"></div>
                 <div class="description">
-                    <p>на <br><span>месяц</span><br> раньше</p>
+                    <p>на <br><span>месяц</span><br> раньше чем</p>
                 </div>
             </div>
         </div><a class="button button--primary">Получить демо-доступ</a>
@@ -44,14 +45,14 @@
 <section class="section02">
     <div class="items cnt row">
         <div class="item">
-            <div class="icon"><img src="img/s2_icon01.png" alt="s2_icon01"></div>
+            <div class="icon"><img src="img/opencart-logo.png" alt="s2_icon01" width="60" height="41"></div>
             <h2>OpenCart в основе</h2>
             <p>Система управления интернет-магазином №1 среди бесплатных</p>
         </div>
         <div class="item">
             <div class="icon"><img src="img/s2_icon02.png" alt="s2_icon02"></div>
-            <h2>Современный дизайн</h2>
-            <p>???</p>
+            <h2>Универсальный дизайн</h2>
+            <p>Подойдет для любых ниш, возможность выбрать тематический шаблон</p>
         </div>
         <div class="item">
             <div class="icon"><img src="img/s2_icon03.png" alt="s2_icon03"></div>
@@ -59,40 +60,34 @@
             <p>Ваш интернет-магазин &laquo;подстроится&raquo; под любые устройства</p>
         </div>
         <div class="item">
-            <div class="icon"><img src="img/s2_icon04.png" alt="s2_icon04"></div>
-            <h2>Интерфейс</h2>
-            <p>Учитывающий ваши потребности</p>
-        </div>
-        <div class="item">
-            <div class="icon"><img src="img/s2_icon05.png" alt="s2_icon05"></div>
-            <h2>Безупречное управление</h2>
-            <p>Быстрый и лёгкий запуск</p>
-        </div>
-        <div class="item">
-            <div class="icon"><img src="img/s2_icon06.png" alt="s2_icon06"></div>
-            <h2>Продающие модули</h2>
-            <p>Весь необходимый функционал</p>
-        </div>
-        <div class="item">
             <div class="icon"><img src="img/s2_icon07.png" alt="s2_icon07"></div>
             <h2>Интеграции</h2>
             <p>С онлайн-кассами и курьерскими службами</p>
-        </div>
-        <div class="item">
-            <div class="icon"><img src="img/s2_icon08.png" alt="s2_icon08"></div>
-            <h2>Оптимальное решение</h2>
-            <p>Для любого бизнеса</p>
         </div>
     </div>
 </section>
 <section class="section03">
     <h1>Мы поможем сэкономить время и деньги</h1>
-    <form action="" method="post">
+
+    <div class="form-container">
+      <form action="" method="post">
         <h2>Я хочу узнать подробности</h2>
-        <input type="text" name="name" placeholder="Ваше имя">
-        <input type="text" name="phone" placeholder="Ваш телефон">
+        <div class="form-group">
+          <input class="form-control is-valid" type="text" name="name" placeholder="Ваше имя">
+          <div class="valid-feedback">
+            Всё норм! Такая же форма без состояний ниже
+          </div>
+        </div>
+        <div class="form-group">
+          <input class="form-control is-invalid" type="text" name="phone" placeholder="Ваш телефон">
+          <div class="invalid-feedback">
+            Всё плохо :-(
+          </div>
+        </div>
         <button type="submit" class="button button--secondary">Позвоните мне</button>
-    </form>
+      </form>
+    </div>
+
     <h2>Хотите открыть свой интернет-магазин, но не хотите ждать?</h2>
     <p><img src="img/s3_p_checkIcon.png" alt="s3_p_checkIcon">У нас есть универсальное <span>готовое решение</span> по отличной цене и всего за 1 день! <br> Ниже представлен прайс, где Вы сможете посмотреть, что входит в стоимость данного продукта</p>
 </section>
@@ -385,12 +380,18 @@
 </section>
 <section class="section03">
     <h1>Мы поможем Вам сэкономить время и деньги</h1>
-    <form action="" method="post">
+    <div class="form-container">
+      <form action="" method="post">
         <h2>Я хочу узнать подробности</h2>
-        <input type="text" name="name" placeholder="Ваше имя">
-        <input type="text" name="phone" placeholder="Ваш телефон">
-        <button type="submit">Позвоните мне</button>
-    </form>
+        <div class="form-group">
+          <input class="form-control" type="text" name="name" placeholder="Ваше имя">
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" name="phone" placeholder="Ваш телефон">
+        </div>
+        <button type="submit" class="button button--secondary">Позвоните мне</button>
+      </form>
+    </div>
     <h2>Хотите открыть свой интернет-магазин, но не хотите ждать?</h2>
     <p><img src="img/s3_p_checkIcon.png" alt="s3_p_checkIcon">У нас есть универсальное <span>готовое решение</span> по отличной цене и всего за 1 день! <br> Ниже представлен прайс, где Вы сможете посмотреть, что входит в стоимость данного продукта</p>
 </section>
