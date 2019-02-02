@@ -980,7 +980,7 @@ section.section01 > div.cnt.row > div.features > div.itemOfFeatures > div.descri
     line-height: 30px;
 }
 
-section.section01 > div.cnt.row > a.button {
+section.section01 > div.cnt.row > button.button {
     margin-top: 27px;
     position: relative;
     border-radius: 30px;
@@ -1004,7 +1004,7 @@ section.section01 > div.cnt.row > a.button {
         height: 79px;
         width: 467px
     }
-    section.section01 > div.cnt.row > a.button {
+    section.section01 > div.cnt.row > button.button {
         margin-top: 101px
     }
 }
