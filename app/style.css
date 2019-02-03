@@ -2300,10 +2300,6 @@ section.section13 div.cnt.row div.items div.circle img {
     }
 }
 
-section.section14 {
-    background-color: #202020;
-}
-
 section.section14 div.cnt.row {
     padding: 38px 30px 10px;
 }
@@ -2531,7 +2527,7 @@ section.section14 div.cnt.row div.three div.img {
 
 section.section15 {
     height: 850px;
-    background-color: #272727;
+    background-color: #191923;
     background-image: url("img/s15_bg.png");
     background-position: center bottom;
     background-repeat: no-repeat;

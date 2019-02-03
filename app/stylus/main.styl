@@ -1,5 +1,8 @@
-$primary = #40b550;
-$secondary = #e6a302;
+$primary = #00bceb;
+$secondary = #F39237;
+
+$hover = #BF1363;
+$dark = #191923;
 
 @import 'fonts'
 
@@ -9,9 +12,10 @@ body
 a
   transition all 0.1s ease-in
   text-decoration none
+  color: $primary
 
   &:hover
-    color: red
+    color: $hover
     text-decoration none
 
 button:focus
@@ -37,7 +41,7 @@ button:focus
     background-color $primary
 
     &:hover
-      background darken($primary,25%)
+      background darken($primary,15%)
       color #fff
 
   &--secondary
