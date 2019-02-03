@@ -1,6 +1,11 @@
 $primary = #40b550;
 $secondary = #e6a302;
 
+@import 'fonts'
+
+body
+  font-family 'Museo Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+
 a
   transition all 0.1s ease-in
   text-decoration none
@@ -8,6 +13,9 @@ a
   &:hover
     color: red
     text-decoration none
+
+button:focus
+  outline: none !important
 
 .container
   max-width: 1290px;

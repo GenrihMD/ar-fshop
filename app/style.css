@@ -103,7 +103,6 @@ section {
 
 body {
     line-height: 1.618em;
-    font-family: 'Montserrat';
 }
 
 ol,
@@ -854,7 +853,7 @@ header.header > div.cnt.row > a.callme {
         padding-left: 25px;
         color: #fff;
         font-size: 13px;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 18px
     }
 }
@@ -890,7 +889,7 @@ header.header > div.cnt.row > a.callme {
         border-radius: 30px;
         color: #3a3a3a;
         font-size: 13px;
-        font-weight: 600;
+        font-weight: 700;
         line-height: 18px;
         text-align: center
     }
@@ -914,7 +913,7 @@ section.section01 > div.cnt.row {
 section.section01 > div.cnt.row > h1 {
     color: #fff;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     max-width: 100vw
 }
