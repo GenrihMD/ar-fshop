@@ -38,6 +38,7 @@ button:focus
 
     &:hover
       background darken($primary,25%)
+      color #fff
 
   &--secondary
     background-color $secondary
@@ -61,5 +62,9 @@ button:focus
 .close
   font-weight: 300;
   font-size: 2.5rem
+
+.custom-control-input:checked~.custom-control-label::before
+  background-color: $primary
+  border-color: $primary
 
 @import 'sections/*'

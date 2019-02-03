@@ -6,7 +6,6 @@
     <meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700&amp;subset=cyrillic,cyrillic-ext">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/common.min.css">
@@ -36,7 +35,7 @@
           <div class="itemOfFeatures">
               <div class="icon"><img src="img/s1_features_img02.png" alt="s1_features_img02"></div>
               <div class="description">
-                  <p>на <br><span>месяц</span><br> раньше чем</p>
+                <p>на <br><span>месяц</span><br> раньше</p>
               </div>
           </div>
       </div>
@@ -46,24 +45,24 @@
 <section class="section02">
     <div class="items cnt row">
         <div class="item">
-            <div class="icon"><img src="img/opencart-logo.png" alt="s2_icon01" width="60" height="41"></div>
+            <div class="icon"><img src="img/opencart-logo.png" alt="" width="60" height="41"></div>
             <h2>OpenCart в основе</h2>
             <p>Система управления интернет-магазином №1 среди бесплатных</p>
         </div>
         <div class="item">
-            <div class="icon"><img src="img/s2_icon02.png" alt="s2_icon02"></div>
+            <div class="icon"><img src="img/s2_icon02.png" alt=""></div>
             <h2>Универсальный дизайн</h2>
-            <p>Подойдет для любых ниш, возможность выбрать тематический шаблон</p>
+            <p>Подойдет для любых ниш, возможность выбрать цветовую схему</p>
         </div>
         <div class="item">
-            <div class="icon"><img src="img/s2_icon03.png" alt="s2_icon03"></div>
+            <div class="icon"><img src="img/s2_icon03.png" alt=""></div>
             <h2>Адаптивная верстка</h2>
             <p>Ваш интернет-магазин &laquo;подстроится&raquo; под любые устройства</p>
         </div>
         <div class="item">
-            <div class="icon"><img src="img/s2_icon07.png" alt="s2_icon07"></div>
+            <div class="icon"><img src="img/s2_icon07.png" alt=""></div>
             <h2>Интеграции</h2>
-            <p>С онлайн-кассами и курьерскими службами</p>
+            <p>С онлайн-кассами, курьерскими службами и складскими программами</p>
         </div>
     </div>
 </section>
@@ -83,6 +82,12 @@
           <input class="form-control is-invalid" type="text" name="phone" placeholder="Ваш телефон">
           <div class="invalid-feedback">
             Всё плохо :-(
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+            <label class="custom-control-label" for="customCheck1">Согласен с <a href="#">политикой конфиденциальности</a></label>
           </div>
         </div>
         <button type="submit" class="button button--secondary">Позвоните мне</button>
@@ -389,10 +394,17 @@
       <form action="" method="post">
         <h2>Я хочу узнать подробности</h2>
         <div class="form-group">
-          <input class="form-control" type="text" name="name" placeholder="Ваше имя">
+          <input class="form-control" type="text" name="name" placeholder="Ваше имя" value="Женечка Полосухин">
         </div>
         <div class="form-group">
           <input class="form-control" type="text" name="phone" placeholder="Ваш телефон">
+        </div>
+
+        <div class="form-group">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+            <label class="custom-control-label" for="customCheck1">Согласен с <a href="#">политикой конфиденциальности</a></label>
+          </div>
         </div>
         <button type="submit" class="button button--secondary">Позвоните мне</button>
       </form>
@@ -432,7 +444,14 @@
 <footer>
   <div class="container">
     <div class="footer-grid">
-      <p>2019 Ready.ru Качественный интернет-магазин за 1 день. ИП Полосухин Евгений Юрьевич. <a href="#">Реквизиты</a></p>
+      <div>
+        <p>ReadyShop.ru, 2017&ndash;2019</p>
+        <p>ИП Полосухин Евгений Юрьевич</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Реквизиты</a></li>
+          <li class="list-inline-item"><a href="#">Политика конфиденциальности</a></li>
+        </ul>
+      </div>
       <a class="button" href="#">Наверх</a>
     </div>
   </div>
